@@ -11,7 +11,7 @@ const About = () => {
                         <h4>My skills</h4>
                         <div className="skills">
                             <div>
-                                <button className="btn-hard-skills">Hard-skills</button>
+                                <button className="btn-hard-skills active" >Hard-skills</button>
                             </div>
                             <div>
                                 <p>&</p>
@@ -19,6 +19,7 @@ const About = () => {
                             <div>
                                 <button className="btn-soft-skills">Soft skills</button>
                             </div>
+
                         </div>
                         <Skills />
                     </div>

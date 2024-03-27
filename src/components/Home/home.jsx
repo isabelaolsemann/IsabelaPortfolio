@@ -7,9 +7,7 @@ const Home = () => {
         <section id="home">
             <div className="content">
                 <div className="greeting">
-                    <div className="hello">
-                        <h1>Hello!</h1>
-                    </div>
+                    <h1>Hello!</h1>
                     <h2>I'm Isabela, <br />
                     Front-end <span className="profission">Developer</span>!</h2>
                 </div>

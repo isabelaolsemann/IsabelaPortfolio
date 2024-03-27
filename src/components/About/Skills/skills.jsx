@@ -12,51 +12,51 @@ const Skills = () => {
         <div className="skills-content">
             <div className="hard-skills">
                 <div className="skill">
-                    <FaHtml5 />
+                    <FaHtml5 className="icon"/>
                     <p>HTML</p>
                 </div>
                 <div className="skill">
-                    <FaCss3Alt />
+                    <FaCss3Alt className="icon"/>
                     <p>CSS</p>
                 </div>
                 <div className="skill">
-                    <IoLogoJavascript />
+                    <IoLogoJavascript className="icon"/>
                     <p>JavaScript</p>
                 </div>
                 <div className="skill">
-                    <FaReact />
+                    <FaReact className="icon" />
                     <p>React</p>
                 </div>
                 <div className="skill">
-                    <FaFigma />
+                    <FaFigma className="icon" />
                     <p>Figma</p>
                 </div>
                 <div className="skill">
-                    <FaBootstrap />
+                    <FaBootstrap className="icon" />
                     <p>Bootstrap</p>
                 </div>
                 <div className="skill">
-                    <FaGitAlt />
+                    <FaGitAlt className="icon" />
                     <p>Git</p>
                 </div>
                 <div className="skill">
-                    <FaGithub />
+                    <FaGithub className="icon" />
                     <p>Github</p>
                 </div>
                 <div className="skill">
-                    <TfiWrite />
-                    <p>Reacher/Writings</p>
+                    <TfiWrite className="icon" />
+                    <p>Writings</p>
                 </div>
                 <div className="skill">
-                    <FaChalkboardTeacher />
-                    <p>Teach</p>
+                    <FaChalkboardTeacher className="icon" />
+                    <p>Teaching</p>
                 </div>
         </div>
 
             <div className="soft-skills">
 
             </div>
-    </div>
+        </div>
     )
 }
 
