@@ -1,0 +1,46 @@
+.cv-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    height: 60px;
+    padding: 10px;
+    background-color: rgba(196, 189, 189, 0.651);
+    border: 2px solid #fff;
+    border-radius: 40px;
+    font-size: 14px;
+}
+
+.btn-cv {
+    width: 200px;
+    height: 40px;
+    border-radius: 60px;
+    padding: 12px 20px;
+    background: #8D1616;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-cv:hover {
+    opacity: 0.9;
+}
+
+.btn-contact {
+    width: 150px;
+    height: 50px;
+    border-radius: 60px;
+    padding: 15px 20px;
+    background: transparent;
+    color: var(--color-black);
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.btn-contact:hover {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}

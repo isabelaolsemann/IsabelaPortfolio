@@ -1,0 +1,123 @@
+#home {
+    height: 89vh;
+    padding-top: 3rem;
+    overflow: hidden;
+}
+
+.content {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* CT - Position */
+#cv {
+    position: absolute;
+    bottom: 25px;
+    left: 40%;
+    z-index: 3;
+    left: calc(55% - 11rem);
+}
+
+/* ==== Photo ==== */
+
+.me {
+    background: var(--color-bg);
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: calc(48% - 11rem);
+    bottom: -30px;
+    margin-top: 3rem;
+    border-radius: 12rem 12rem 0 0;
+    padding: 10px;
+    z-index: 1;
+}
+
+/* background: linear-gradient(var(--color-bg), transparent); */
+
+.isaphoto {
+    position: absolute;
+    width: 364px;
+    height: 332px;
+    max-width: 100%;
+    bottom: 15px;
+    left: calc(50% - 11rem);
+    z-index: 2;
+}
+
+.greeting h1 {
+    position: absolute; 
+    top: 1%;
+    left: 47%;
+    font-size: 20px;
+    padding: 0.5rem;
+    border: 1px solid #000;
+    border-radius: 38px;
+    width: 103px;
+    height: 40px;
+    text-align: center;
+}
+
+.greeting h2 {
+    padding: 5%;
+    font-size: 45px;
+    font-weight: 800;
+    margin: 15px 0;
+    line-height: 1.2; 
+}
+
+.profission {
+    color: #8D1616;
+}
+
+/* ========== Responsiveness =========== */
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+    #home {
+        height: 92vh;
+    }
+
+    #cv {
+        left: calc(65% - 11rem);
+    }
+
+    .greeting h1 {
+        top: 50px;
+        left: 45%;
+    }
+
+    .greeting h2 {
+        padding: 15%;
+        font-size: 50px;
+    }
+}
+
+/* Cel */
+@media screen and (max-width: 600px) {
+    #home {
+        height: 90vh;
+    }
+
+    #cv {
+        left: calc(65% - 11rem);
+    }
+
+    .greeting h1 {
+        top: -20px;
+        left: 42%;
+        font-size: 20px;
+    }
+
+    .greeting h2 {
+        padding: 10%;
+        font-size: 30px;
+    }
+
+    .isaphoto {
+        width: 334px;
+        height: 302px;
+        left: calc(50% - 9rem);
+    }
+}

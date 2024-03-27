@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  outline: 0;
+}
+
+body {
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+:root {
+  --color-bg: #8D1616;
+  --color-bg-tranparent: #8d161696;
+  --color-white: #f7f7f7;
+  --color-black: #0B0A0A;
+}
