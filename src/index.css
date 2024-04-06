@@ -14,8 +14,74 @@ body {
 }
 
 :root {
-  --color-bg: #8D1616;
-  --color-bg-tranparent: #8d161696;
-  --color-white: #f7f7f7;
-  --color-black: #0B0A0A;
+  --nav-color: #0B0A0A;
+  --nav-active-color: #8D1616;
+  --text-white: #fff;
+  --text-black: #000;
+  --main-color-bg: #8D1616;
+  --main-bg-home: #f5dddd;
+
+  --html-color: #E44D26; 
+  --css-color: #264DE4; 
+  --js-color: #F0DB4F; 
+  --react-color: #61DAFB; 
+  --figma-color: #F24E1E; 
+  --bootstrap-color: #563D7C; 
+  --git-color: #F05032; 
+  --github-color: #181717; 
+  
+  /* Font family */
+}
+
+.content {
+    height: 100%;
+    width: 140vh;
+    margin: 0 auto; 
+    max-width: 80%;
+}
+
+
+/* Icons */
+.icon-dev {
+  font-size: 3em;
+}
+
+.html {
+  color: #E44D26;
+}
+
+.css {
+  color: #264DE4;
+}
+
+.js {
+  color: #dbc21d;
+}
+
+.react {
+  color: #61DBFB;
+}
+
+.figma {
+  color: #F24E1E;
+}
+
+.bootstrap {
+  color: #7952B3;
+}
+
+.git {
+  color: #F05032;
+}
+
+.github {
+  color: #181717;
+}
+
+.writing {
+  color: #5f00f8;
+}
+
+.teaching {
+  color: #8b0d61;
 }

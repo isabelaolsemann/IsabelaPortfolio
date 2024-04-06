@@ -1,0 +1,89 @@
+#certifications .content {
+    margin: 2em auto;
+}  
+
+#certifications h2 {
+    font-size: 25px;
+    padding: 1em;
+    text-align: center;
+}
+
+#certifications h4 {
+    text-align: center;
+    padding: 0 0 1.5em 0;
+    font-size: 20px;
+    color: var(--main-color-bg);
+}
+
+
+#certifications .button {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    margin-top: 2em !important;
+    color: #fff;
+}
+
+.workButton {
+    background-color: rgba(17, 117, 104, 0.486);
+}
+
+.workButton:hover {
+    background-color: rgb(17, 121, 107)
+}
+
+.graduationButton {
+    background-color: rgb(191, 103, 103);
+    width: auto;
+}
+
+.graduationButton:hover {
+    background-color: rgb(141, 22, 22);
+}
+
+.vertical-timeline-element-content p {
+    margin: 1em 0 !important;
+    text-align: justify;
+}
+
+.vertical-timeline-element-subtitle {
+    color: #3d3939;
+}
+
+.vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
+    margin: 0.5em;
+}
+
+.vertical-timeline::before,
+.vertical-timeline-element-icon .bounce-in,
+.vertical-timeline-element-content-arrow,
+.vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
+    border: 1px solid #3d3939;
+}
+
+.vertical-timeline-element-content-arrow {
+    border-right: 7px solid #3d3939 !important;
+}
+
+.vertical-timeline::before {
+    background: #3d3939 !important;
+}
+
+@media only screen and (max-width: 1700px) {
+    .vertical-timeline-element-date {
+        margin-top: 1.5em;
+        display: block !important;
+        float: none !important;
+        color: #272525;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #certifications .button {
+        font-size: 13px;
+    }
+}
+
+
+/*  layout - mobile  */
+/* default: 1-column-right */

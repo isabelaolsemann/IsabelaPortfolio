@@ -1,10 +1,11 @@
 // Components
-import NavBar from "./components/NavBar/NavBar";
-import Home from "./components/Home/home";
-import About from "./components/About/about";
-import Certifications from "./components/Certifications/certifications";
-import Projects from "./components/Projects/projects";
-import Contact from "./components/Contact/contact";
+import NavBar from "./pages/NavBar/NavBar";
+import Home from "./pages/Home/home";
+import About from "./pages/About/about";
+import Certifications from "./pages/Certifications/certifications";
+import Projects from "./pages/Projects/projects";
+import Contact from "./pages/Contact/contact";
+import Footer from "./pages/Footer/footer";
 
 // CSS
 import "./App.css";
@@ -19,6 +20,7 @@ function App() {
       <Certifications />
       <Projects />
       <Contact />
+      <Footer></Footer>
     </>
   )
 }

@@ -1,0 +1,153 @@
+/* ======= Geral =======*/
+#about {
+    background-color: white;
+    height: auto;
+}
+
+#about .content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ======= About me ======= */
+
+.resume {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5em 0;
+}
+
+.description {
+    max-width: 500px;
+    max-height: 100%;
+    width: 100%;
+    height: 340px;
+}
+
+.class {
+    max-width: 330px;
+    max-height: 260px;
+    width: 100%;
+    border-radius: 20px;
+    margin-right: 3em;
+    align-items: center;
+}
+
+.resume h4 {
+    text-align: center;
+    margin: 1rem;
+}
+
+.resume p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+
+/* =========== my-skills ========== */
+
+.my-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.description h4 {
+    font-size: 28px;
+    padding: 10px;
+    margin-top: 0.5rem;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.skills button,
+.skills p {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1.5em 0.7em 0 0.7em;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.skills .active {
+    text-decoration: underline;
+    text-decoration-style: wavy; /* Define o estilo da linha como ondulado */
+    text-decoration-color: var(--main-color-bg);
+}
+
+
+/* ========== Responsiveness =========== */
+
+/* =========== PC ================== */
+@media screen and (min-width: 1180px) and (min-height: 799px) {
+    #about .content {
+        padding: 2.5em;
+    }
+
+    .resume {
+        gap: 3em;
+    }
+
+    .my-skills {
+        padding: 3em 0;
+    }
+
+    .show-skills {
+        margin-bottom: 2em;
+    }
+}
+
+/* =========== Tablet ================== */
+@media screen and (max-width: 1024px) {
+    .resume {
+        gap: 2rem;
+        padding: 3.5em 0 5em 0;
+    }
+
+    .my-skills {
+        padding: 5em 0;
+    }
+
+    .show-skills,
+    .hard-skills,
+    .soft-skills {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+}
+
+
+/* Cel */
+@media screen and (max-width: 600px) {
+    .class {
+        display: none;
+    }
+
+    .resume {
+        gap: 0;
+        height: auto;
+    }
+
+    .my-skills {
+        margin: 12em 0 0 0;
+        height: auto;
+    }
+}
+

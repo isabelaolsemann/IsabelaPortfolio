@@ -1,5 +1,5 @@
 import "./cv.css";
-import CV from "../../../assets/bio-ireland.pdf";
+import CV from "../../assets/bio-ireland.pdf";
 import { FaDownload } from "react-icons/fa6";
 
 const Cv = () => {

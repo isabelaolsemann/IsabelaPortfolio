@@ -1,11 +1,11 @@
 import "./home.css";
-import Isa from "../../img/isabela.png";
-import Cv from "./CV/cv";
+import Isa from "../../assets/img/isabela.png";
+import Cv from "../../components/CV/cv";
 
 const Home = () => {
     return (
         <section id="home">
-            <div className="content">
+            <div className="home-content">
                 <div className="greeting">
                     <h1>Hello!</h1>
                     <h2>I'm Isabela, <br />

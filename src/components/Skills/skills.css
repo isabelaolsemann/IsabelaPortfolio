@@ -1,0 +1,84 @@
+.skills-content {
+    margin: 0 auto; 
+    max-width: 100%;
+}
+
+.hard-skills {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.soft-skills {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.skill {
+    width: 73px;
+    height: 78px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 1em 0;
+}
+
+.skill p {
+    font-size: 15px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-bottom: 20px; 
+}
+
+.skill p {
+    margin-top: 10px; 
+}
+
+/* Styles - Icons - Soft Skills */
+
+.soft-skill-icon {
+    font-size: 2em;
+}
+
+.communication {
+    color: #007bff;
+}
+
+.soft-skill-icon.empathy {
+    color: #ffc107;
+}
+
+.soft-skill-icon.creativity {
+    color: #28a745;
+}
+
+.soft-skill-icon.adaptability {
+    color: #6610f2;
+}
+
+.soft-skill-icon.patience {
+    color: #dc3545;
+}
+
+.soft-skill-icon.solving {
+    color: #17a2b8;
+}
+
+.soft-skill-icon.teamwork {
+    color: #fd7e14;
+}
+
+.soft-skill-icon.resilience {
+    color: #6c757d;
+}

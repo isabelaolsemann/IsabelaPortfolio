@@ -1,0 +1,165 @@
+#contact {
+    height: 81vh;
+}
+
+.container-contact {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 2;
+    padding: 1.5em 0;
+    height: 100%;
+}
+
+.contact-info-social-media,
+.contact-form {
+    width: 100%;
+    margin: 1em;
+}
+
+/* =========== Form =============== */
+
+.contact-form h2,
+.contact-form p {
+    text-align: center;
+    margin: 1em;
+}
+
+.contact-form h2 {
+    font-size: 1.7em;
+}
+
+.contact-form p {
+    padding: 0 0.5em;
+    font-size: 16px;
+    color: rgb(34, 31, 31);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em;
+}
+
+.form input,
+.form textarea,
+.btn-form-contact {
+    margin: 0.5em;
+    padding: 3px;
+    font-size: 16px;
+}
+
+.input {
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.input input {
+    width: 100%;
+}
+
+.form textarea {
+    height: 120px;
+    resize: none;
+}
+
+.btn-form-contact {
+    height: 35px;
+    background-color: brown;
+    font-weight: 800;
+    color: rgb(241, 242, 243);
+    border: none;
+}
+
+.btn-form-contact:hover{
+    background-color: rgb(22, 2, 2);
+    font-weight: 800;
+}
+
+
+/* ========== Contact social media ========== */
+
+.contact-info-social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #161515;
+}
+
+.contact-info-social-media h2 {
+    font-size: 1.7em;
+}
+
+.contact-info-social-media svg {
+    text-decoration: none;
+    color: #161515;
+    margin: 1.5em 0.5em;
+    font-size: 30px;
+}
+
+.contact-info-social-media svg:hover {
+    color: rgb(42, 173, 13);
+}
+
+.contact-info-social-media h3 {
+    font-size: 1.7em;
+}
+
+.contact-info-social-media h4 {
+    font-size: 1.2em;
+    color: #6c0606;
+}
+
+/* ========== Responsiveness =========== */
+
+/* =========== PC ================== */
+@media screen and (min-width: 1180px) and (min-height: 799px) {
+    .contact-form p {
+        padding: 0 1em;
+        font-size: 18px;
+    }
+
+    .form input,
+    .form textarea,
+    .btn-form-contact {
+        margin: 0.7em;
+        padding: 5px;
+        font-size: 16px;
+    }
+
+}
+
+/* =========== Tablet ================== */
+@media screen and (max-width: 1024px) {
+    .container-contact {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        gap: 2;
+        padding: 1.5em 0;
+        height: 100%;
+    }
+
+    .contact-info-social-media h2,
+    .contact-info-social-media a {
+        display: none;
+    }
+
+    .contact-form p {
+        padding: 0 4em;
+    }
+
+}
+
+
+/* =========== Smartphone ================== */
+
+@media screen and (max-width: 600px) {
+    .contact-form p {
+        display: none;
+    }
+}

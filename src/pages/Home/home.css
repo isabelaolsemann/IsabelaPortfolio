@@ -1,12 +1,12 @@
 #home {
     height: 91vh;
     overflow: hidden;
+    background-color: var(--main-bg-home);
 }
 
-.content {
+.home-content {
     text-align: center;
     height: 100%;
-    background-color: #f5dddd;
 }
 
 /* ==== Greeting ==== */
@@ -45,7 +45,7 @@
 }
 
 .profission {
-    color: #8D1616;
+    color: var(--main-color-bg);
 }
 
 /* ==== Photo ==== */
@@ -65,7 +65,7 @@
     left: calc(49.5% - 11rem);
     bottom: 0px;
     margin-top: 3rem;
-    background: var(--color-bg);
+    background:  var(--main-color-bg);
     border-radius: 12rem 12rem 0 0;
     padding: 10px;
     z-index: 1;

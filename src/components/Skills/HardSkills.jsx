@@ -1,63 +1,60 @@
+// css
+import "./skills.css";
+
 // Icons 
 import { FaHtml5, FaCss3Alt, FaReact, FaGitAlt, FaGithub, FaChalkboardTeacher} from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaFigma, FaBootstrap } from "react-icons/fa6";
 import { TfiWrite } from "react-icons/tfi";
 
-// css
-import "./skills.css";
 
-const Skills = () => {
+const HardSkills = () => {
     return (
         <div className="skills-content">
             <div className="hard-skills">
                 <div className="skill">
-                    <FaHtml5 className="icon"/>
+                    <FaHtml5 className="html icon-dev"/>
                     <p>HTML</p>
                 </div>
                 <div className="skill">
-                    <FaCss3Alt className="icon"/>
+                    <FaCss3Alt className="css icon-dev"/>
                     <p>CSS</p>
                 </div>
                 <div className="skill">
-                    <IoLogoJavascript className="icon"/>
+                    <IoLogoJavascript className="js icon-dev"/>
                     <p>JavaScript</p>
                 </div>
                 <div className="skill">
-                    <FaReact className="icon" />
+                    <FaReact className="react icon-dev" />
                     <p>React</p>
                 </div>
                 <div className="skill">
-                    <FaFigma className="icon" />
+                    <FaFigma className="figma icon-dev" />
                     <p>Figma</p>
                 </div>
                 <div className="skill">
-                    <FaBootstrap className="icon" />
+                    <FaBootstrap className="bootstrap icon-dev" />
                     <p>Bootstrap</p>
                 </div>
                 <div className="skill">
-                    <FaGitAlt className="icon" />
+                    <FaGitAlt className="git icon-dev" />
                     <p>Git</p>
                 </div>
                 <div className="skill">
-                    <FaGithub className="icon" />
+                    <FaGithub className="github icon-dev" />
                     <p>Github</p>
                 </div>
                 <div className="skill">
-                    <TfiWrite className="icon" />
+                    <TfiWrite className="writing icon-dev" />
                     <p>Writings</p>
                 </div>
                 <div className="skill">
-                    <FaChalkboardTeacher className="icon" />
+                    <FaChalkboardTeacher className="teaching icon-dev" />
                     <p>Teaching</p>
                 </div>
-        </div>
-
-            <div className="soft-skills">
-
             </div>
         </div>
     )
 }
 
-export default Skills;
+export default HardSkills;

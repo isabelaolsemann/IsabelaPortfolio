@@ -1,0 +1,114 @@
+/* Geral */
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    background-color: var(--nav-color);
+    color: var(--text-white);
+}
+
+.navbar-desktop {
+    height: 4.5rem;
+    width: 140vh;
+    margin: 0 auto; 
+    max-width: 80%;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--nav-color);
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin: 2.5rem;
+}
+
+.desktopMenuListItem {
+    margin: 1rem;
+    cursor: pointer;
+    padding: 0.7rem;
+}
+
+.desktopMenuListItem:hover {
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+.i-language {
+    color: #f7f7f7;
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+.active {
+    border-radius: 20px;
+    background-color: var(--nav-active-color);
+}
+
+/* ======== Mobmenu ========== */
+
+.mobile-menu {
+    position: absolute;
+    top: 4rem;
+    right: 1rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem;
+    height: fit-content;
+    min-width: 15rem;
+    background-color: rgb(16, 17, 17);
+    border-radius: 1rem;
+}
+
+.list-item {
+    color: white;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    text-align: center;
+}
+
+.mobMenu {
+    display: none;
+    object-fit: cover;
+    height: 1.8rem;
+}
+
+/* ======= Nav Cel ========== */
+
+@media screen and (max-width: 800px) {
+    .mobMenu {
+        display: flex;
+    }
+
+    .desktop-menu,
+    .i-web {
+        display: none;
+    }
+
+    .i-language {
+        font-size: 1.2em;
+        margin: 0.3em;
+    }
+
+    .logo {
+        position: absolute;
+        left: 0.5em;
+    }
+
+    .mobMenu {
+        position: absolute;
+        right: 1em;
+        font-size: 30px;
+    }
+
+    .mobMenu:hover {
+        color: aqua;
+    }
+}
