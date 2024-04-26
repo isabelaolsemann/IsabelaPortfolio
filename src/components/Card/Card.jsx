@@ -23,11 +23,11 @@ const Card = (props) => {
                             case "react":
                                 return <FaReact key={index} className="react icon-project"/>;
                             case "js":
-                                return <IoLogoJavascript className="js icon-project"/>
+                                return <IoLogoJavascript key={index} className="js icon-project"/>
                             case "figma":
-                                return <FaFigma className="figma icon-project"/>
+                                return <FaFigma key={index} className="figma icon-project"/>
                             case "bootstrap":
-                                return <FaBootstrap className="bootstrap icon-project" />
+                                return <FaBootstrap key={index} className="bootstrap icon-project" />
                             default:
                                 return null;
                         }
@@ -37,7 +37,7 @@ const Card = (props) => {
             <div className="links-card">
                 {/* Links para deploy e código */}
                 <a href={props.deploy} target="_blank" rel="noopener noreferrer" className="deploy">Deploy</a>
-                <a href={props.code} target="_blank" rel="noopener noreferrer" className="deploy">Code</a>
+                <a href={props.code} target="_blank" rel="noopener noreferrer" className="deploy">Código</a>
             </div>
         </div>
     );

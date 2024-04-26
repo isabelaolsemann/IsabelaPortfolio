@@ -21,7 +21,7 @@ export default function Projects() {
     return (
         <section id="projects">
             <div className="content">
-                <h2>Webpage responsiva</h2>
+                <h2>Websites desenvolvidos</h2>
                 {/* Renderização do Carousel */}
                 <Carousel showDots={true} responsive={responsive} className="carousel">
                     {cards}

@@ -91,6 +91,8 @@
 /* ========== Responsiveness =========== */
 
 /* =========== PC ================== */
+
+
 @media screen and (min-width: 1180px) and (min-height: 799px) {
     #about .content {
         padding: 2.5em;

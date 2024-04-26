@@ -11,15 +11,15 @@ const SoftSkills = () => {
             <div className="soft-skills">
                 <div className="skill">
                     <FaComment className="communication soft-skill-icon"/>
-                    <p>Communication</p>
+                    <p>Comunicação</p>
                 </div>
                 <div className="skill">
                     <FaHandHoldingHeart className="empathy soft-skill-icon"/>
-                    <p>Empathy</p>
+                    <p>Empatia</p>
                 </div>
                 <div className="skill">
                     <FaLightbulb className="creativity soft-skill-icon"/>
-                    <p>Creativity</p>
+                    <p>Criatividade</p>
                 </div>
                 <div className="skill">
                     <FaExchangeAlt className="adaptability soft-skill-icon"/>
@@ -27,7 +27,7 @@ const SoftSkills = () => {
                 </div>
                 <div className="skill">
                     <FaHourglassHalf className="patience soft-skill-icon"/>
-                    <p>Patience</p>
+                    <p>Pontualidade</p>
                 </div>
                 <div className="skill">
                     <FaCogs className="solving soft-skill-icon"/>
@@ -39,7 +39,7 @@ const SoftSkills = () => {
                 </div>
                 <div className="skill">
                     <FaShieldAlt className="resilience soft-skill-icon"/>
-                    <p>Resilience</p>
+                    <p>Resiliência</p>
                 </div>
             </div>
         </div>

@@ -8,16 +8,24 @@
     color: var(--text-white);
 }
 
-.navbar-desktop {
+.navbar {
     height: 4.5rem;
     width: 140vh;
-    margin: 0 auto; 
-    max-width: 80%;
+    max-width: 1170px;
+    min-width: 1000px;
+    margin: 0 auto;
     padding: 1rem 2rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: var(--nav-color);
+}
+
+.desktop-menu {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 .logo {
@@ -31,6 +39,7 @@
     margin: 1rem;
     cursor: pointer;
     padding: 0.7rem;
+    border: 1px solid #000;
 }
 
 .desktopMenuListItem:hover {
@@ -82,7 +91,7 @@
 
 /* ======= Nav Cel ========== */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .mobMenu {
         display: flex;
     }

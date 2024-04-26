@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="content">
                 <div className="container-footer">
                     <div>
-                        <p>&copy; 2024 Isabela Olsemann. All rights reserved.</p>
+                        <p>&copy; 2024 Isabela Olsemann. Todos os direitos reservados.</p>
                     </div>
                     <div className="icons-contact">
                         <a href="https://www.linkedin.com/in/isabelaolsemann/" target="_blank"><GrLinkedin /></a>

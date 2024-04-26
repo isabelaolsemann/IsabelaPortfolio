@@ -7,16 +7,16 @@ const Home = () => {
         <section id="home">
             <div className="home-content">
                 <div className="greeting">
-                    <h1>Hello!</h1>
-                    <h2>I'm Isabela, <br />
-                    Front-end <span className="profission">Developer</span>!</h2>
+                    <h1>Olá!</h1>
+                    <h2>Meu nome é Isabela, <br />
+                    sou <span className="profession">desenvolvedora</span> front-end!</h2>
                 </div>
                 
                 <div className="photo-bg">
-                    <img src={Isa} alt="Isabela's photo" className="isaphoto"/>
+                    <img src={Isa} alt="Foto de Isabela" className="isaphoto"/>
                     <div className="me"></div>
+                    <Cv />
                 </div>
-                <Cv />
             </div>
         </section>
     )

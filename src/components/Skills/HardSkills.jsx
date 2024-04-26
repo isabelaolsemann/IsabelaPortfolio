@@ -42,15 +42,15 @@ const HardSkills = () => {
                 </div>
                 <div className="skill">
                     <FaGithub className="github icon-dev" />
-                    <p>Github</p>
+                    <p>GitHub</p>
                 </div>
                 <div className="skill">
                     <TfiWrite className="writing icon-dev" />
-                    <p>Writings</p>
+                    <p>Escrita</p>
                 </div>
                 <div className="skill">
                     <FaChalkboardTeacher className="teaching icon-dev" />
-                    <p>Teaching</p>
+                    <p>Ensino</p>
                 </div>
             </div>
         </div>

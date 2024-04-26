@@ -12,7 +12,7 @@ const About = () => {
             <div className="content">
                 <div className="resume">
                     <div className="description">
-                        <h4>About me</h4>
+                        <h4>Sobre mim</h4>
                         <p>
                         Durante minha graduação em Ciências Biológicas e no Mestrado em Ciências e Tecnologia na UTFPR, tive meu primeiro contato com programação através do curso de 
                         bioinformática. Até então, não havia percebido as possibilidades de uso e de carreira nessa área. Logo, foi durante o meu intercâmbio de língua 

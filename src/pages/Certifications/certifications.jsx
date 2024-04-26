@@ -16,8 +16,7 @@ const Certifications = () => {
     return (
     <section id="certifications">
         <div className="content">
-        <h2>Education & Experience</h2>
-        <h4>Timeline</h4>
+        <h2>Educação & Experiência</h2>
         <VerticalTimeline>
             {TimelineElements.map((element) => {
             let isWorkIcon = element.icon === "work";

@@ -1,5 +1,5 @@
 import "./cv.css";
-import CV from "../../assets/bio-ireland.pdf";
+import CV from "../../assets/Isabela Olsemann - Desenvolvedora.pdf";
 import { FaDownload } from "react-icons/fa6";
 
 const Cv = () => {
@@ -9,7 +9,7 @@ const Cv = () => {
                 <span><FaDownload /></span>
                 <span>CV</span>
             </a>
-            <a href="#contact" className="btn-contact">Hire me</a>
+            <a href="#contact" className="btn-contact">Contato</a>
         </div>
     )
 }

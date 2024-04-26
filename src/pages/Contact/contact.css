@@ -1,5 +1,5 @@
 #contact {
-    height: 81vh;
+    height: auto;
 }
 
 .container-contact {
@@ -101,7 +101,7 @@
 }
 
 .contact-info-social-media svg:hover {
-    color: rgb(42, 173, 13);
+    color: var(--main-color-bg);
 }
 
 .contact-info-social-media h3 {
@@ -116,20 +116,10 @@
 /* ========== Responsiveness =========== */
 
 /* =========== PC ================== */
-@media screen and (min-width: 1180px) and (min-height: 799px) {
-    .contact-form p {
-        padding: 0 1em;
-        font-size: 18px;
+@media screen and (max-width: 1280px) {
+    #contact {
+        margin: 5em auto 5em auto;
     }
-
-    .form input,
-    .form textarea,
-    .btn-form-contact {
-        margin: 0.7em;
-        padding: 5px;
-        font-size: 16px;
-    }
-
 }
 
 /* =========== Tablet ================== */
