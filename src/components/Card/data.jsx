@@ -10,12 +10,12 @@ export const responsive = {
       slidesToSlide: 2,
     },
     desktop: {
-      breakpoint: { max: 1024, min: 800 },
+      breakpoint: { max: 1024, min: 700 },
       items: 2,
     },
     tablet: {
-      breakpoint: { max: 800, min: 600 },
-      items: 2,
+      breakpoint: { max: 700, min: 600 },
+      items: 1,
     },
     mobile: {
       breakpoint: { max: 600, min: 0 },

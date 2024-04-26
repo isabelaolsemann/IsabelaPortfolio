@@ -136,6 +136,14 @@
 }
 
 
+/* Tablet */
+@media screen and (max-width: 900px) {
+    .class {
+        display: none;
+    }
+}
+
+
 /* Cel */
 @media screen and (max-width: 600px) {
     .class {
