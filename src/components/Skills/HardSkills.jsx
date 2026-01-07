@@ -2,10 +2,11 @@
 import "./skills.css";
 
 // Icons 
-import { FaHtml5, FaCss3Alt, FaReact, FaGitAlt, FaGithub, FaChalkboardTeacher} from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaReact, FaGitAlt, FaGithub} from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaFigma, FaBootstrap } from "react-icons/fa6";
 import { TfiWrite } from "react-icons/tfi";
+import { GrMysql } from "react-icons/gr";
 
 
 const HardSkills = () => {
@@ -49,8 +50,8 @@ const HardSkills = () => {
                     <p>Escrita</p>
                 </div>
                 <div className="skill">
-                    <FaChalkboardTeacher className="teaching icon-dev" />
-                    <p>Ensino</p>
+                    <GrMysql className="teaching icon-dev"/>
+                    <p>MySQL</p>
                 </div>
             </div>
         </div>

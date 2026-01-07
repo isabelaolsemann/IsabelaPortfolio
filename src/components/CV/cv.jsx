@@ -1,5 +1,5 @@
 import "./cv.css";
-import CV from "../../assets/Isabela - Desenvolvedora.pdf";
+import CV from "../../assets/CV Isabela Olsemann front.pdf";
 import { FaDownload } from "react-icons/fa6";
 
 const Cv = () => {

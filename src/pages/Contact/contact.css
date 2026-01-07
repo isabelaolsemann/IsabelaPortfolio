@@ -12,25 +12,22 @@
     height: 100%;
 }
 
-.contact-info-social-media,
-.contact-form {
+.contact-info-social-media {
     width: 100%;
-    margin: 1em;
+    margin: 4.5em 0;
 }
 
-/* =========== Form =============== */
-
-.contact-form h2,
-.contact-form p {
+.contact-info-social-media h2,
+.contact-info-social-media p {
     text-align: center;
-    margin: 1em;
+    margin: 0.5em;
 }
 
-.contact-form h2 {
+.contact-info-social-media h2 {
     font-size: 1.7em;
 }
 
-.contact-form p {
+.contact-info-social-media p {
     padding: 0 0.5em;
     font-size: 16px;
     color: rgb(34, 31, 31);
@@ -132,24 +129,5 @@
         gap: 2;
         padding: 1.5em 0;
         height: 100%;
-    }
-
-    .contact-info-social-media h2,
-    .contact-info-social-media a {
-        display: none;
-    }
-
-    .contact-form p {
-        padding: 0 4em;
-    }
-
-}
-
-
-/* =========== Smartphone ================== */
-
-@media screen and (max-width: 600px) {
-    .contact-form p {
-        display: none;
     }
 }

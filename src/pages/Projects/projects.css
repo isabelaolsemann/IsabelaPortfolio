@@ -81,6 +81,10 @@
   border-radius: 7px;
 }
 
+#projects a:hover {
+  background-color: #000;
+}
+
 .react-multi-carousel-dot-list {
   display: none !important;
 }

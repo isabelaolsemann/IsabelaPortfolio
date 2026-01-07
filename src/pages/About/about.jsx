@@ -14,11 +14,7 @@ const About = () => {
                     <div className="description">
                         <h4>Sobre mim</h4>
                         <p>
-                        Durante minha graduação em Ciências Biológicas e no Mestrado em Ciências e Tecnologia na UTFPR, tive meu primeiro contato com programação através do curso de 
-                        bioinformática. Até então, não havia percebido as possibilidades de uso e de carreira nessa área. Logo, foi durante o meu intercâmbio de língua 
-                        inglesa que decidi repensar minha trajetória e fazer a transição para a área de tecnologia, buscando oportunidades alinhadas aos meus interesses. Ao longo dessa 
-                        jornada, aprendi conceitos fundamentais para o desenvolvimento front-end e atualmente estou aprofundando meus conhecimentos por meio de trabalhos freelancer, 
-                        enquanto também inicio meus estudos em MongoDB e Node.js.
+                            Estudante de Análise e Desenvolvimento de Sistemas em transição de carreira, com background em Ciências. Iniciei minha jornada na tecnologia na Bioinformática, utilizando Python, o que despertou meu interesse pela programação e me levou a desenvolver projetos práticos e atuar como desenvolvedora freelancer na Coraltech, criando soluções digitais com HTML, CSS, JavaScript, WordPress/WooCommerce e Figma. Atualmente curso TADS no IFPR e busco oportunidades como desenvolvedora front-end (CLT, PJ ou freelancer), colaborando em equipes que valorizem aprendizado contínuo, organização e design centrado no usuário.
                         </p>
                     </div>
                     <div>

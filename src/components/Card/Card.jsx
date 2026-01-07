@@ -1,6 +1,6 @@
 // Icons
 import React from 'react';
-import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaReact, FaWordpress} from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaFigma, FaBootstrap } from "react-icons/fa6";
 
@@ -28,6 +28,8 @@ const Card = (props) => {
                                 return <FaFigma key={index} className="figma icon-project"/>
                             case "bootstrap":
                                 return <FaBootstrap key={index} className="bootstrap icon-project" />
+                            case "wordpress":
+                                return <FaWordpress key={index} className="wordpress icon-project"/>
                             default:
                                 return null;
                         }
